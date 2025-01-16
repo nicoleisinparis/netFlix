@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 550;
+  margin-bottom: 20px;
+}
+.contaner {
+  width: 1466px;
+  height: auto;
+  margin: auto;
+}
+
+.box {
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
+.scroll {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  scrollbar-width: none;
+}
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+/* ====== Netflix ========= */
+.word {
+  display: flex;
+  color: red;
+  font-weight: 620;
+  margin: 35px 0;
+  font-family: "Source Sans 3";
+  margin-left: 50px;
+}
+.high1 {
+  font-size: 36px;
+}
+.high {
+  font-size: 33px;
+  transform: translateY(1%);
+}
+.mid1 {
+  font-size: 31px;
+  transform: translateY(2%);
+}
+.mid {
+  font-size: 29px;
+  transform: translateY(4%);
+}
+
+img {
+  width: 220px;
+  height: 124px;
+}
