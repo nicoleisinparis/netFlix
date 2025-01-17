@@ -1,6 +1,8 @@
 import "./App.css";
 import data from "./assets/data.json";
-
+import Movie from "./assets/components/Movie";
+import Content from "./assets/components/Content";
+import Title from "./assets/components/Title";
 function App() {
   return (
     <section className="container">
@@ -14,7 +16,7 @@ function App() {
         <div className="high1">X</div>
       </div>
       {/* <h1>NETFLIX</h1> */}
-      {data.map((elem, index) => {
+      {/* {data.map((elem, index) => {
         return (
           <div className="box">
             <h2>{elem.category}</h2>
@@ -25,7 +27,10 @@ function App() {
             </div>
           </div>
         );
-      })}
+      })} */}
+
+      <Content />
+      {/* <Movie /> */}
     </section>
   );
 }
